@@ -1,0 +1,16 @@
+Source: xenta-x-icons
+Section: gnome
+Priority: optional
+Maintainer: Dindin Hernawan (Xenta OS) <root@dev.xentaos.org>
+Build-Depends: debhelper (>=9)
+Standards-Version: 3.9.6
+Homepage: http://www.xentaos.org/
+#Vcs-Git: git://anonscm.debian.org/collab-maint/xenta-icons.git
+#Vcs-Browser: https://anonscm.debian.org/cgit/collab-maint/xenta-icons.git
+
+Package: xenta-x-icons
+Architecture: all
+Depends: xenta-icons
+Description: Xenta-X Icon themes
+ Icon default theme built for Xenta OS. 
+ Uses elements of Numix and Influence from Faenza.
