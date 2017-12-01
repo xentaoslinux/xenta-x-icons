@@ -1,0 +1,25 @@
+#!/usr/bin/env bash
+# This program is free software: you can redistribute it and/or modify
+# it under the terms of the GNU General Public License as published by
+# the Free Software Foundation, either version 3 of the License, or
+# (at your option) any later version.
+# .
+# This program is distributed in the hope that it will be useful,
+# but WITHOUT ANY WARRANTY; without even the implied warranty of
+# MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+# GNU General Public License for more details.
+# .
+# You should have received a copy of the GNU General Public License
+# along with this program.  If not, see <http://www.gnu.org/licenses/>
+
+figlet build icons
+cd apps
+./imgall  
+./linkall
+#sudo rm -rf /usr/share/icons/Xenta-X
+# cd /home/dindin/xentaos/kesenian/project/artwork/icons/desktop/xenta-x-icons/xenta-x-icons/source
+#sudo cp -R Xenta-X /usr/share/icons/Xenta-X
+#sudo gtk-update-icon-cache -f /usr/share/icons/Xenta-X
+#cp /usr/share/icons/Xenta-X/icon-theme.cache $HOME/XENTAOS/KESENIAN/ICONS/XENTA-X/Xenta-X/
+#tar -zcvf Xenta-X-$JAHITAN.tar.gz Xenta-X
+#mv Xenta-X-$JAHITAN.tar.gz $PROJECT_BACKUP/
