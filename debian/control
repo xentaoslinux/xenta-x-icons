@@ -1,11 +1,11 @@
 Source: xenta-x-icons
 Section: gnome
 Priority: optional
-Maintainer: Dindin Hernawan (Xenta OS) <root@dev.xentaos.org>
+Maintainer: Dindin Hernawan (Xenta OS) <dindin_hernawan@yahoo.com>
 Build-Depends: debhelper (>=9)
 Standards-Version: 3.9.7
-Homepage: https://github.com/xentaos/xenta-x-icons
-Vcs-Browser: https://github.com/xentaos/xenta-x-icons.git
+Homepage: https://github.com/xentaoslinux/xenta-x-icons
+Vcs-Browser: https://github.com/xentaoslinux/xenta-x-icons.git
 
 Package: xenta-x-icons
 Architecture: all
