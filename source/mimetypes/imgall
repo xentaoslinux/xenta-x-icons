@@ -1,0 +1,67 @@
+#!/usr/bin/env bash
+# This program is free software: you can redistribute it and/or modify
+# it under the terms of the GNU General Public License as published by
+# the Free Software Foundation, either version 3 of the License, or
+# (at your option) any later version.
+# .
+# This program is distributed in the hope that it will be useful,
+# but WITHOUT ANY WARRANTY; without even the implied warranty of
+# MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+# GNU General Public License for more details.
+# .
+# You should have received a copy of the GNU General Public License
+# along with this program.  If not, see <http://www.gnu.org/licenses/>
+figlet imgall png
+SAVEIF=$IFS
+IFS=$(echo -en "\n\b")
+for file in $(ls *svg)
+do
+  name=${file%%.svg}
+  HOME=$HOME
+  inkscape $name.svg --export-png=$name.png --export-height=256 --export-width=256
+done
+mkdir temp
+cp *.png ./temp
+cd temp
+SAVEIF=$IFS
+IFS=$(echo -en "\n\b")
+for file in $(ls *png)
+do
+  name=${file%%.png}
+  HOME=$HOME
+  mogrify -resize 256x256 $name.png
+  cp $name.png $HOME/Project/paket/x/xenta-x-icons/xenta-x-icons/build/Xenta-X/mimetypes/256/$name.png
+  echo " Mengubah $name.png Ukuran 256x256  Target Xenta-X/mimetypes/256/$name.png"
+  echo " Mengubah $name.png Sukses"
+  mogrify -resize 128x128 $name.png
+  cp $name.png $HOME/Project/paket/x/xenta-x-icons/xenta-x-icons/build/Xenta-X/mimetypes/128/$name.png
+  echo " Mengubah $name.png Ukuran 128x128  Target Xenta-X/mimetypes/128/$name.png"
+  echo " Mengubah $name.png Sukses"
+  mogrify -resize 96x96 $name.png
+  cp $name.png $HOME/Project/paket/x/xenta-x-icons/xenta-x-icons/build/Xenta-X/mimetypes/96/$name.png
+  echo " Mengubah $name.png Ukuran 96x96  Target Xenta-X/mimetypes/96/$name.png"
+  echo " Mengubah $name.png Sukses"
+  mogrify -resize 48x48 $name.png
+  cp $name.png $HOME/Project/paket/x/xenta-x-icons/xenta-x-icons/build/Xenta-X/mimetypes/48/$name.png
+  echo " Mengubah $name.png Ukuran 48x48  Target Xenta-X/mimetypes/48/$name.png"
+  echo " Mengubah $name.png Sukses"
+  mogrify -resize 32x32 $name.png
+  cp $name.png $HOME/Project/paket/x/xenta-x-icons/xenta-x-icons/build/Xenta-X/mimetypes/32/$name.png
+  echo " Mengubah $name.png Ukuran 32x32  Target Xenta-X/mimetypes/32/$name.png"
+  echo " Mengubah $name.png Sukses"
+  mogrify -resize 24x24 $name.png
+  cp $name.png $HOME/Project/paket/x/xenta-x-icons/xenta-x-icons/build/Xenta-X/mimetypes/24/$name.png
+  echo " Mengubah $name.png Ukuran 24x24  Target Xenta-X/mimetypes/24/$name.png"
+  echo " Mengubah $name.png Sukses"
+  mogrify -resize 22x22 $name.png
+  cp $name.png $HOME/Project/paket/x/xenta-x-icons/xenta-x-icons/build/Xenta-X/mimetypes/22/$name.png
+  echo " Mengubah $name.png Ukuran 22x22  Target Xenta-X/mimetypes/22/$name.png"
+  echo " Mengubah $name.png Sukses"
+  mogrify -resize 16x16 $name.png
+  cp $name.png $HOME/Project/paket/x/xenta-x-icons/xenta-x-icons/build/Xenta-X/mimetypes/16/$name.png
+  echo " Mengubah $name.png Ukuran 16x16  Target Xenta-X/mimetypes/16/$name.png"
+  echo " Mengubah $name.png Sukses"
+done
+cd ..
+rm -rf temp
+rm -rf *.png

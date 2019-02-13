@@ -1,0 +1,129 @@
+#!/bin/bash
+# imgall.sh
+# Copyright (C) 2017  Dindin Hernawan <root@dev.xentaos.org>
+# 
+# This program is free software: you can redistribute it and/or modify
+# it under the terms of the GNU General Public License as published by
+# the Free Software Foundation, either version 3 of the License, or
+# (at your option) any later version.
+# 
+# This program is distributed in the hope that it will be useful,
+# but WITHOUT ANY WARRANTY; without even the implied warranty of
+# MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+# GNU General Public License for more details.
+# 
+# You should have received a copy of the GNU General Public License
+# along with this program. If not, see <http://www.gnu.org/licenses/>.
+HOME=$HOME
+cd $HOME/xentaos/kesenian/project/artwork/icons/desktop/xenta-x-icons/xenta-x-icons/build/Xenta-X/apps/16
+ln -s cs-startup-programs.png xfce4-session.png
+ln -s cs-backgrounds.png preferences-desktop-wallpaper.png
+ln -s cs-user.png mugshot.png
+ln -s Thunar.png system-file-manager.png
+ln -s cs-mouse.png preferences-desktop-peripherals.png
+ln -s cs-date-time.png xfcalendar.png
+ln -s cs-panel.png xfce4-panel.png
+ln -s cs-sound.png multimedia-volume-control.png
+ln -s preferences-system-windows.png xfwm4.png
+ln -s cs-desktop-effects.png wmtweaks.png
+ln -s cs-workspaces.png xfce4-workspaces.png
+ln -s cs-details.png help-about.png
+echo "Selesai"
+cd $HOME/xentaos/kesenian/project/artwork/icons/desktop/xenta-x-icons/xenta-x-icons/build/Xenta-X/apps/22
+ln -s cs-startup-programs.png xfce4-session.png
+ln -s cs-backgrounds.png preferences-desktop-wallpaper.png
+ln -s cs-user.png mugshot.png
+ln -s Thunar.png system-file-manager.png
+ln -s cs-mouse.png preferences-desktop-peripherals.png
+ln -s cs-date-time.png xfcalendar.png
+ln -s cs-panel.png xfce4-panel.png
+ln -s cs-sound.png multimedia-volume-control.png
+ln -s preferences-system-windows.png xfwm4.png
+ln -s cs-desktop-effects.png wmtweaks.png
+ln -s cs-workspaces.png xfce4-workspaces.png
+ln -s cs-details.png help-about.png
+echo "Selesai"
+cd $HOME/xentaos/kesenian/project/artwork/icons/desktop/xenta-x-icons/xenta-x-icons/build/Xenta-X/apps/24
+ln -s cs-startup-programs.png xfce4-session.png
+ln -s cs-backgrounds.png preferences-desktop-wallpaper.png
+ln -s cs-user.png mugshot.png
+ln -s Thunar.png system-file-manager.png
+ln -s cs-mouse.png preferences-desktop-peripherals.png
+ln -s cs-date-time.png xfcalendar.png
+ln -s cs-panel.png xfce4-panel.png
+ln -s cs-sound.png multimedia-volume-control.png
+ln -s preferences-system-windows.png xfwm4.png
+ln -s cs-desktop-effects.png wmtweaks.png
+ln -s cs-workspaces.png xfce4-workspaces.png
+ln -s cs-details.png help-about.png
+echo "Selesai"
+cd $HOME/xentaos/kesenian/project/artwork/icons/desktop/xenta-x-icons/xenta-x-icons/build/Xenta-X/apps/32
+ln -s cs-startup-programs.png xfce4-session.png
+ln -s cs-backgrounds.png preferences-desktop-wallpaper.png
+ln -s cs-user.png mugshot.png
+ln -s Thunar.png system-file-manager.png
+ln -s cs-mouse.png preferences-desktop-peripherals.png
+ln -s cs-date-time.png xfcalendar.png
+ln -s cs-panel.png xfce4-panel.png
+ln -s cs-sound.png multimedia-volume-control.png
+ln -s preferences-system-windows.png xfwm4.png
+ln -s cs-desktop-effects.png wmtweaks.png
+ln -s cs-workspaces.png xfce4-workspaces.png
+ln -s cs-details.png help-about.png
+echo "Selesai"
+cd $HOME/xentaos/kesenian/project/artwork/icons/desktop/xenta-x-icons/xenta-x-icons/build/Xenta-X/apps/48
+ln -s cs-startup-programs.png xfce4-session.png
+ln -s cs-backgrounds.png preferences-desktop-wallpaper.png
+ln -s cs-user.png mugshot.png
+ln -s Thunar.png system-file-manager.png
+ln -s cs-mouse.png preferences-desktop-peripherals.png
+ln -s cs-date-time.png xfcalendar.png
+ln -s cs-panel.png xfce4-panel.png
+ln -s cs-sound.png multimedia-volume-control.png
+ln -s preferences-system-windows.png xfwm4.png
+ln -s cs-desktop-effects.png wmtweaks.png
+ln -s cs-workspaces.png xfce4-workspaces.png
+ln -s cs-details.png help-about.png
+echo "Selesai"
+cd $HOME/xentaos/kesenian/project/artwork/icons/desktop/xenta-x-icons/xenta-x-icons/build/Xenta-X/apps/96
+ln -s cs-startup-programs.png xfce4-session.png
+ln -s cs-backgrounds.png preferences-desktop-wallpaper.png
+ln -s cs-user.png mugshot.png
+ln -s Thunar.png system-file-manager.png
+ln -s cs-mouse.png preferences-desktop-peripherals.png
+ln -s cs-date-time.png xfcalendar.png
+ln -s cs-panel.png xfce4-panel.png
+ln -s cs-sound.png multimedia-volume-control.png
+ln -s preferences-system-windows.png xfwm4.png
+ln -s cs-desktop-effects.png wmtweaks.png
+ln -s cs-workspaces.png xfce4-workspaces.png
+ln -s cs-details.png help-about.png
+echo "Selesai"
+cd $HOME/xentaos/kesenian/project/artwork/icons/desktop/xenta-x-icons/xenta-x-icons/build/Xenta-X/apps/128
+ln -s cs-startup-programs.png xfce4-session.png
+ln -s cs-backgrounds.png preferences-desktop-wallpaper.png
+ln -s cs-user.png mugshot.png
+ln -s Thunar.png system-file-manager.png
+ln -s cs-mouse.png preferences-desktop-peripherals.png
+ln -s cs-date-time.png xfcalendar.png
+ln -s cs-panel.png xfce4-panel.png
+ln -s cs-sound.png multimedia-volume-control.png
+ln -s preferences-system-windows.png xfwm4.png
+ln -s cs-desktop-effects.png wmtweaks.png
+ln -s cs-workspaces.png xfce4-workspaces.png
+ln -s cs-details.png help-about.png
+echo "Selesai"
+cd $HOME/xentaos/kesenian/project/artwork/icons/desktop/xenta-x-icons/xenta-x-icons/build/Xenta-X/apps/256
+ln -s cs-startup-programs.png xfce4-session.png
+ln -s cs-backgrounds.png preferences-desktop-wallpaper.png
+ln -s cs-user.png mugshot.png
+ln -s Thunar.png system-file-manager.png
+ln -s cs-mouse.png preferences-desktop-peripherals.png
+ln -s cs-date-time.png xfcalendar.png
+ln -s cs-panel.png xfce4-panel.png
+ln -s cs-sound.png multimedia-volume-control.png
+ln -s preferences-system-windows.png xfwm4.png
+ln -s cs-desktop-effects.png wmtweaks.png
+ln -s cs-workspaces.png xfce4-workspaces.png
+ln -s cs-details.png help-about.png
+echo "Selesai"
