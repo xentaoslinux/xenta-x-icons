@@ -30,35 +30,35 @@ do
   name=${file%%.png}
   HOME=$HOME
   mogrify -resize 256x256 $name.png
-  cp $name.png $HOME/Project/paket/x/xenta-x-icons/xenta-x-icons/build/Xenta-X/apps/256/$name.png
+  cp $name.png $HOME/XentaOS/pemaketan/packages/main/x/xenta-x-icons/xenta-x-icons/build/Xenta-X/apps/256/$name.png
   echo " Mengubah $name.png Ukuran 256x256  Target Xenta-X/apps/256/$name.png"
   echo " Mengubah $name.png Sukses"
   mogrify -resize 128x128 $name.png
-  cp $name.png $HOME/Project/paket/x/xenta-x-icons/xenta-x-icons/build/Xenta-X/apps/128/$name.png
+  cp $name.png $HOME/XentaOS/pemaketan/packages/main/x/xenta-x-icons/xenta-x-icons/build/Xenta-X/apps/128/$name.png
   echo " Mengubah $name.png Ukuran 128x128  Target Xenta-X/apps/128/$name.png"
   echo " Mengubah $name.png Sukses"
   mogrify -resize 96x96 $name.png
-  cp $name.png $HOME/Project/paket/x/xenta-x-icons/xenta-x-icons/build/Xenta-X/apps/96/$name.png
+  cp $name.png $HOME/XentaOS/pemaketan/packages/main/x/xenta-x-icons/xenta-x-icons/build/Xenta-X/apps/96/$name.png
   echo " Mengubah $name.png Ukuran 96x96  Target Xenta-X/apps/96/$name.png"
   echo " Mengubah $name.png Sukses"
   mogrify -resize 48x48 $name.png
-  cp $name.png $HOME/Project/paket/x/xenta-x-icons/xenta-x-icons/build/Xenta-X/apps/48/$name.png
+  cp $name.png $HOME/XentaOS/pemaketan/packages/main/x/xenta-x-icons/xenta-x-icons/build/Xenta-X/apps/48/$name.png
   echo " Mengubah $name.png Ukuran 48x48  Target Xenta-X/apps/48/$name.png"
   echo " Mengubah $name.png Sukses"
   mogrify -resize 32x32 $name.png
-  cp $name.png $HOME/Project/paket/x/xenta-x-icons/xenta-x-icons/build/Xenta-X/apps/32/$name.png
+  cp $name.png $HOME/XentaOS/pemaketan/packages/main/x/xenta-x-icons/xenta-x-icons/build/Xenta-X/apps/32/$name.png
   echo " Mengubah $name.png Ukuran 32x32  Target Xenta-X/apps/32/$name.png"
   echo " Mengubah $name.png Sukses"
   mogrify -resize 24x24 $name.png
-  cp $name.png $HOME/Project/paket/x/xenta-x-icons/xenta-x-icons/build/Xenta-X/apps/24/$name.png
+  cp $name.png $HOME/XentaOS/pemaketan/packages/main/x/xenta-x-icons/xenta-x-icons/build/Xenta-X/apps/24/$name.png
   echo " Mengubah $name.png Ukuran 24x24  Target Xenta-X/apps/24/$name.png"
   echo " Mengubah $name.png Sukses"
   mogrify -resize 22x22 $name.png
-  cp $name.png $HOME/Project/paket/x/xenta-x-icons/xenta-x-icons/build/Xenta-X/apps/22/$name.png
+  cp $name.png $HOME/XentaOS/pemaketan/packages/main/x/xenta-x-icons/xenta-x-icons/build/Xenta-X/apps/22/$name.png
   echo " Mengubah $name.png Ukuran 22x22  Target Xenta-X/apps/22/$name.png"
   echo " Mengubah $name.png Sukses"
   mogrify -resize 16x16 $name.png
-  cp $name.png $HOME/Project/paket/x/xenta-x-icons/xenta-x-icons/build/Xenta-X/apps/16/$name.png
+  cp $name.png $HOME/XentaOS/pemaketan/packages/main/x/xenta-x-icons/xenta-x-icons/build/Xenta-X/apps/16/$name.png
   echo " Mengubah $name.png Ukuran 16x16  Target Xenta-X/apps/16/$name.png"
   echo " Mengubah $name.png Sukses"
 done

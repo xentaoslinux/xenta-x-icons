@@ -1,3 +1,10 @@
+xenta-x-icons (1.3.10) batik; urgency=medium
+
+  * Menambahkan Icons Bagian apps
+    catfish ccsm im-config menulibre xscreensaver xfpm-ac-adapter
+
+ -- Dindin Hernawan (Xenta OS) <dindin_hernawan@yahoo.com>  Thu, 28 Feb 2019 15:35:24 +0700 
+
 xenta-x-icons (1.3.9) batik; urgency=medium
 
   * Menambahkan Icons Bagian apps
