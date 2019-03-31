@@ -15,7 +15,7 @@
 # You should have received a copy of the GNU General Public License
 # along with this program. If not, see <http://www.gnu.org/licenses/>.
 HOME=$HOME
-cd $HOME/xentaos/kesenian/project/artwork/icons/desktop/xenta-x-icons/xenta-x-icons/build/Xenta-X/apps/16
+cd /home/project/kesenian/project/artwork/icons/desktop/xenta-x-icons/xenta-x-icons/build/Xenta-X/apps/16
 ln -s cs-startup-programs.png xfce4-session.png
 ln -s cs-backgrounds.png preferences-desktop-wallpaper.png
 ln -s cs-user.png mugshot.png
@@ -29,7 +29,7 @@ ln -s cs-desktop-effects.png wmtweaks.png
 ln -s cs-workspaces.png xfce4-workspaces.png
 ln -s cs-details.png help-about.png
 echo "Selesai"
-cd $HOME/xentaos/kesenian/project/artwork/icons/desktop/xenta-x-icons/xenta-x-icons/build/Xenta-X/apps/22
+cd /home/project/kesenian/project/artwork/icons/desktop/xenta-x-icons/xenta-x-icons/build/Xenta-X/apps/22
 ln -s cs-startup-programs.png xfce4-session.png
 ln -s cs-backgrounds.png preferences-desktop-wallpaper.png
 ln -s cs-user.png mugshot.png
@@ -43,7 +43,7 @@ ln -s cs-desktop-effects.png wmtweaks.png
 ln -s cs-workspaces.png xfce4-workspaces.png
 ln -s cs-details.png help-about.png
 echo "Selesai"
-cd $HOME/xentaos/kesenian/project/artwork/icons/desktop/xenta-x-icons/xenta-x-icons/build/Xenta-X/apps/24
+cd /home/project/kesenian/project/artwork/icons/desktop/xenta-x-icons/xenta-x-icons/build/Xenta-X/apps/24
 ln -s cs-startup-programs.png xfce4-session.png
 ln -s cs-backgrounds.png preferences-desktop-wallpaper.png
 ln -s cs-user.png mugshot.png
@@ -57,7 +57,7 @@ ln -s cs-desktop-effects.png wmtweaks.png
 ln -s cs-workspaces.png xfce4-workspaces.png
 ln -s cs-details.png help-about.png
 echo "Selesai"
-cd $HOME/xentaos/kesenian/project/artwork/icons/desktop/xenta-x-icons/xenta-x-icons/build/Xenta-X/apps/32
+cd /home/project/kesenian/project/artwork/icons/desktop/xenta-x-icons/xenta-x-icons/build/Xenta-X/apps/32
 ln -s cs-startup-programs.png xfce4-session.png
 ln -s cs-backgrounds.png preferences-desktop-wallpaper.png
 ln -s cs-user.png mugshot.png
@@ -71,7 +71,7 @@ ln -s cs-desktop-effects.png wmtweaks.png
 ln -s cs-workspaces.png xfce4-workspaces.png
 ln -s cs-details.png help-about.png
 echo "Selesai"
-cd $HOME/xentaos/kesenian/project/artwork/icons/desktop/xenta-x-icons/xenta-x-icons/build/Xenta-X/apps/48
+cd /home/project/kesenian/project/artwork/icons/desktop/xenta-x-icons/xenta-x-icons/build/Xenta-X/apps/48
 ln -s cs-startup-programs.png xfce4-session.png
 ln -s cs-backgrounds.png preferences-desktop-wallpaper.png
 ln -s cs-user.png mugshot.png
@@ -85,7 +85,7 @@ ln -s cs-desktop-effects.png wmtweaks.png
 ln -s cs-workspaces.png xfce4-workspaces.png
 ln -s cs-details.png help-about.png
 echo "Selesai"
-cd $HOME/xentaos/kesenian/project/artwork/icons/desktop/xenta-x-icons/xenta-x-icons/build/Xenta-X/apps/96
+cd /home/project/kesenian/project/artwork/icons/desktop/xenta-x-icons/xenta-x-icons/build/Xenta-X/apps/96
 ln -s cs-startup-programs.png xfce4-session.png
 ln -s cs-backgrounds.png preferences-desktop-wallpaper.png
 ln -s cs-user.png mugshot.png
@@ -99,7 +99,7 @@ ln -s cs-desktop-effects.png wmtweaks.png
 ln -s cs-workspaces.png xfce4-workspaces.png
 ln -s cs-details.png help-about.png
 echo "Selesai"
-cd $HOME/xentaos/kesenian/project/artwork/icons/desktop/xenta-x-icons/xenta-x-icons/build/Xenta-X/apps/128
+cd /home/project/kesenian/project/artwork/icons/desktop/xenta-x-icons/xenta-x-icons/build/Xenta-X/apps/128
 ln -s cs-startup-programs.png xfce4-session.png
 ln -s cs-backgrounds.png preferences-desktop-wallpaper.png
 ln -s cs-user.png mugshot.png
@@ -113,7 +113,7 @@ ln -s cs-desktop-effects.png wmtweaks.png
 ln -s cs-workspaces.png xfce4-workspaces.png
 ln -s cs-details.png help-about.png
 echo "Selesai"
-cd $HOME/xentaos/kesenian/project/artwork/icons/desktop/xenta-x-icons/xenta-x-icons/build/Xenta-X/apps/256
+cd /home/project/kesenian/project/artwork/icons/desktop/xenta-x-icons/xenta-x-icons/build/Xenta-X/apps/256
 ln -s cs-startup-programs.png xfce4-session.png
 ln -s cs-backgrounds.png preferences-desktop-wallpaper.png
 ln -s cs-user.png mugshot.png

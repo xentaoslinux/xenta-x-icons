@@ -1,0 +1,3 @@
+#!/bin/bash
+sudo cp -R build/Xenta-X/* /usr/share/icons/Xenta-X/*
+sudo gtk-update-icon-cache -f /usr/share/icons/Xenta-X
