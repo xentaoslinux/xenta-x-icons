@@ -1,3 +1,9 @@
+xenta-x-icons (1.4.2+xentaos2) batik; urgency=high
+
+  * Fix Bugs folder icons
+
+ -- Dindin Hernawan (Xenta OS) <dindin_hernawan@yahoo.com>  Mon, 01 Apr 2019 23:42:08 +0700 
+
 xenta-x-icons (1.4.1+xentaos2) batik; urgency=medium
 
   * Paketkan ulang dengan pembaharuan
